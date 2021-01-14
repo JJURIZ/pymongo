@@ -40,7 +40,7 @@ obj_three = {
 }
 
 
-print(db.classmates.find_one(obj_one.github_id))
+print(db.classmates.find_one({"github_id": obj_two["github_id"]}))
 # classmate_one_id = db.c
 # lassmates.find_one('github_id')
 # print(classmate_one_id)
